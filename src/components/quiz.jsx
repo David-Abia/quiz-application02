@@ -22,7 +22,7 @@ const Quiz = () => {
 
          {
         question: "Who was the first Nigerian head of state in Nigeria",
-        optons: ['A: Nnamdi Azikiwe', 'B: Ahmadu bello', 'C: Tafawa Belewa', 'D: Bula Ahmed Tinubu'],
+        optons: ['A: Nnamdi Azikiwe', 'B: Ahmadu bello', 'C: Tafawa Belewa', 'D: Bula Tinubu'],
         answer:  'A: Nnamdi Azikiwe',
         },
 

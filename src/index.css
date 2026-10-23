@@ -1,0 +1,165 @@
+
+.container{
+max-width: 700px;
+position: relative;
+left: 30%;
+gap: 5px;
+background: black;
+padding-bottom: 50px;
+padding: 10px;
+height: 100vh;
+border-radius: 15px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+  text-align: center;
+  color: yellow;
+}
+
+.option{
+  width: 100%;
+  height: 60px;
+  display: block;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+outline: none;
+border: none;
+background: yellow;
+color: black;
+list-style: circle;
+border-radius: 5px;
+padding-left: 10px;
+font-weight: 700;
+
+}
+
+.option::before{
+  content: "✅ ";
+}
+
+.option:hover{
+  background: white;
+ border: 3px solid green;
+}
+
+.answer{
+  color: yellow;
+}
+
+.selected{
+  
+ background: white;
+ border: 3px solid green;
+
+}
+
+
+h2{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: yellow;
+}
+
+h3{
+  /* align-items: center;
+  justify-content: center;
+  text-align: center; */
+  color: yellow;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.selectedanswer{
+  color: yellow;
+}
+
+
+
+.divbutton{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.divbutton button{
+  width: 110px;
+  height: 50px;
+  font-size: 20px;
+  background: yellow;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+ cursor: pointer;
+}
+
+.divbutton button:hover{
+  background: #ffff;
+  border: 2px solid green;
+}
+
+.divbutton button:disabled{
+  /* background: rgba(247, 247, 224, 0.445); */
+   background: rgba(255, 255, 1, 0.404);
+  cursor: not-allowed;
+  outline: none;
+  border: none;
+}
+
+.scores{
+  text-align: center;
+  color: yellow;
+  font-size: 25px;
+  
+}
+
+.restart{
+  width: 110px;
+  height: 50px;
+  font-size: 20px;
+  background: yellow;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+ cursor: pointer;
+ text-align: center;
+ align-items: center;
+}
+
+
+
+@media (max-width: 600px) {
+  .container{
+    left: auto;
+  }
+
+  .option{
+    height: 100px;
+    font-size: 30px;
+
+  }
+
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 40px;
+  }
+
+  .scores{
+    font-size: 25px;
+  }
+
+  .restart{
+  width: 130px;
+  height: 60px;
+  font-size: 25px;
+  font-weight: 400;
+  }
+}
+

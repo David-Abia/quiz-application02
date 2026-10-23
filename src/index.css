@@ -139,7 +139,7 @@ h3{
   }
 
   .option{
-    height: 100px;
+    height: 90px;
     font-size: 30px;
 
   }
@@ -160,6 +160,12 @@ h3{
   height: 60px;
   font-size: 25px;
   font-weight: 400;
+  }
+
+  .divbutton button{
+    height: 65px;
+    font-size: 23px;
+    border-radius: 6px;
   }
 }
 
